@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Skill Test</title>
+    <!-- Add CSS style -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <!-- Quote Editor -->
+    <div class="table-container">
+      <table id="product-table">
+        <thead>
+          <tr>
+            <th>Quantity</th>
+            <th>Description</th>
+            <th>Unit Price</th>
+            <th>Subtotal</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="table-body">
+          <tr>
+            <td>1</td>
+            <td>Mathematics fir Australia 7 (2nd Edition)</td>
+            <td>$57.20</td>
+            <td>$57.20</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Mathematics fir Australia 7 (2nd Edition)</td>
+            <td>$61.60</td>
+            <td>$123.20</td>
+          </tr>
+          <!-- Table rows will be added dynamically here -->
+        </tbody>
+      </table>
+    </div>
+
+    <button onclick="addRow()">Add Row</button>
+
+    <!-- Add Script -->
+    <script src="index.js"></script>
+  </body>
+</html>
